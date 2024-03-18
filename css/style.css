@@ -1,0 +1,33 @@
+@font-face {
+	font-family: "HARD_ROCK";
+	    src: url('../fonts/HARD_ROCK.ttf') format('truetype');
+}
+@font-face {
+    font-family: "rocknroll_typo_crazy";
+    src: url('../fonts/rocknroll_typo_crazy.ttf') format('truetype');
+}
+@font-face {
+    font-family: "TheDark";
+    src: url('../fonts/TheDark.ttf') format('truetype');
+}
+body {
+    background: url('../img/ac-dc-2.png'), black;
+    background-size: cover;
+    background-position: center;
+}
+.navbar, h1 {
+    font-family: "TheDark";
+    z-index: 3;
+}
+.card {
+    box-shadow: 1rem 1rem 1rem rgb(255, 255, 255);
+}
+.portrait {
+    height: 300px;
+}
+.btn {
+    font-family: "rocknroll_typo_crazy";
+}
+.form-control {
+    font-family: "HARD_ROCK";
+}
